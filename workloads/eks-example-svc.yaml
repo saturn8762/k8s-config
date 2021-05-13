@@ -3,7 +3,8 @@ kind: Service
 metadata: 
   name: eks-example 
   namespace: eks-example 
-  labels: app: eks-example 
+  labels: 
+    app: eks-example 
 spec:
   type: LoadBalancer
   ports: 
